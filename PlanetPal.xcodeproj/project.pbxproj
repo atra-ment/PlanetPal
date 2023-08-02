@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50B43232A7AFF340043BE43 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B43222A7AFF340043BE43 /* HomePage.swift */; };
 		E5D062AE2A79B17E00F3AE1F /* PlanetPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D062AD2A79B17E00F3AE1F /* PlanetPalApp.swift */; };
-		E5D062B02A79B17E00F3AE1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D062AF2A79B17E00F3AE1F /* ContentView.swift */; };
 		E5D062B22A79B17F00F3AE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D062B12A79B17F00F3AE1F /* Assets.xcassets */; };
 		E5D062B52A79B17F00F3AE1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D062B42A79B17F00F3AE1F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50B43222A7AFF340043BE43 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		E5D062AA2A79B17E00F3AE1F /* PlanetPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D062AD2A79B17E00F3AE1F /* PlanetPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetPalApp.swift; sourceTree = "<group>"; };
-		E5D062AF2A79B17E00F3AE1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5D062B12A79B17F00F3AE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5D062B42A79B17F00F3AE1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				E5D062AD2A79B17E00F3AE1F /* PlanetPalApp.swift */,
-				E5D062AF2A79B17E00F3AE1F /* ContentView.swift */,
+				E50B43222A7AFF340043BE43 /* HomePage.swift */,
 				E5D062B12A79B17F00F3AE1F /* Assets.xcassets */,
 				E5D062B32A79B17F00F3AE1F /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D062B02A79B17E00F3AE1F /* ContentView.swift in Sources */,
+				E50B43232A7AFF340043BE43 /* HomePage.swift in Sources */,
 				E5D062AE2A79B17E00F3AE1F /* PlanetPalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
