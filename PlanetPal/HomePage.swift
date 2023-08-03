@@ -30,11 +30,7 @@ struct HomePage: View {
             .cornerRadius(100)
             .padding()
                 VStack(spacing: 30.0) {
-                Text("**Welcome to PlanetPal!**")
-                    .font(.title2)
-                    .multilineTextAlignment(.center)
-                    .foregroundStyle(.white)
-                Text("**What would you like to do?**")
+                Text("**PlanetPal is an app designed to teach you more about the enviornment and how you can protect it.**")
                     .font(.title2)
                     .multilineTextAlignment(.center)
                     .foregroundStyle(.white)
