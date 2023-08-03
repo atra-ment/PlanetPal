@@ -35,7 +35,7 @@ struct HomePage: View {
                     .multilineTextAlignment(.center)
                     .foregroundStyle(.white)
                 NavigationLink(destination: TestOne()) {
-                    Text("**Take our quiz**")
+                    Text("**Take Our Quiz**")
                 }
                 .buttonStyle(.bordered)
                 .controlSize(.regular)
@@ -48,7 +48,7 @@ struct HomePage: View {
                 .foregroundStyle(.black)
                 .cornerRadius(20)
                 NavigationLink(destination: information()) {
-                        Text("**Learn more**")
+                        Text("**Learn More**")
                     }
                 .buttonStyle(.bordered)
                 .controlSize(.regular)
