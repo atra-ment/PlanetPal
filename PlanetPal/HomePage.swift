@@ -29,7 +29,7 @@ struct HomePage: View {
             )
             .cornerRadius(100)
             .padding()
-                VStack(spacing: 30.0) {
+                VStack(spacing: 20.0) {
                 Text("**PlanetPal is an app designed to teach you more about the enviornment and how you can protect it.**")
                     .font(.title2)
                     .multilineTextAlignment(.center)
@@ -47,8 +47,21 @@ struct HomePage: View {
                 )
                 .foregroundStyle(.black)
                 .cornerRadius(20)
+                NavigationLink(destination: information()) {
+                        Text("**Learn more**")
+                    }
+                .buttonStyle(.bordered)
+                .controlSize(.regular)
+                .font(.title3)
+                .background(
+                Image("light-green")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                )
+                .foregroundStyle(.black)
+                .cornerRadius(20)
                 NavigationLink(destination: TestTwo()) {
-                    Text("**Learn more**")
+                    Text("**About Us**")
                 }
                 .buttonStyle(.bordered)
                 .controlSize(.regular)
